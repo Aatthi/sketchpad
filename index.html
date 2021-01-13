@@ -7,28 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="container" >
+    <div class="header-wrapper">
+        <div class="header">
+            <div class="nav-bar">
+                <div class="local-alterations">
+                    <h1>Local <span>alterations</span></h1>
+                </div>
+                <div class="navigation-tabs">
+                    <ul>
+                        <li>Home</li>
+                        <li>Alterations</li>
+                        <li>Contact Us</li>
+                        <li>About</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <script>
-
-
-        const container = document.getElementById("container");
-
-        function makeRows(rows, cols) {
-        container.style.setProperty('--grid-rows', rows);
-        container.style.setProperty('--grid-cols', cols);
-            for (c = 0; c < (rows * cols); c++) {
-                let cell = document.createElement("div");
-                container.appendChild(cell).className = "grid-item";
-                cell.setAttribute(onmouseover, "mouseOverFunction()")
-                function mouseOverFunction() {
-                cell.style.background = "green";
-            }
-            };
-        };
-            makeRows(90, 90);
-            
-    </script>
 </body>
 </html>
