@@ -5,11 +5,17 @@
 }
 
 .header {
-	background-image: url(Images/wp3751648-tailor-wallpapers.jpg);
-	height: 500px;
+	background-image: url(Images/tailor-alteration-services-livingston-county.jpg);
+	height: 800px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	opacity: 0.8;
+	transition: all 0.25s ease-in-out;
+}
+
+.header:hover {
+	opacity: 0.9;
 }
 
 .nav-bar {
@@ -19,9 +25,10 @@
 	width: 100%;
 	margin: 0 auto;
 	height: 100px;
-	color: white;
-	background: rgba(0, 0, 0, 0.409);
-	padding: 0 50px;
+	color: rgba(0, 0, 0, 0.8);
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	padding: 80px 50px;
+	font-size: 30px;
 }
 
 .navigation-tabs ul {
