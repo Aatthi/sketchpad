@@ -42,6 +42,10 @@
 	margin: 0 30px;
 }
 
+.navigation-tabs li:hover {
+	opacity: 0.6;
+}
+
 .main-wrapper {
 	margin: 140px 0;
 }
